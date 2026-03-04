@@ -163,7 +163,7 @@ See the [Python package on PyPI](https://pypi.org/project/colorfyi/).
 
 ## FYIPedia Developer Tools
 
-Part of the [FYIPedia](https://colorfyi.com/) open-source developer tools ecosystem:
+Part of the [FYIPedia](https://github.com/fyipedia) open-source developer tools ecosystem:
 
 | Package | Description |
 |---------|-------------|
