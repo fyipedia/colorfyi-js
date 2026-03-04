@@ -1,0 +1,48 @@
+{
+  "name": "colorfyi",
+  "version": "0.1.0",
+  "description": "Pure TypeScript color engine — hex to RGB/HSL/CMYK/OKLCH conversion, WCAG contrast checker, color harmonies, Tailwind shades, and color blindness simulation. Zero dependencies.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "color",
+    "hex",
+    "rgb",
+    "hsl",
+    "cmyk",
+    "oklch",
+    "wcag",
+    "contrast",
+    "tailwind",
+    "accessibility",
+    "color-blindness",
+    "color-harmony"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/colorfyi-js"
+  },
+  "homepage": "https://colorfyi.com",
+  "license": "MIT",
+  "author": "FYIPedia",
+  "devDependencies": {
+    "tsup": "^8.0",
+    "typescript": "^5.7",
+    "vitest": "^3.0"
+  }
+}
