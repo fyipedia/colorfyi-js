@@ -9,7 +9,7 @@
  *
  * @example
  * ```ts
- * import { getColorInfo, contrastRatio, harmonies } from "colorfyi";
+ * import { getColorInfo, contrastRatio, harmonies } from "@fyipedia/colorfyi";
  *
  * const info = getColorInfo("FF6B35");
  * console.log(info.rgb);  // { r: 255, g: 107, b: 53 }

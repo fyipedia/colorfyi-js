@@ -1,9 +1,9 @@
-# colorfyi
+# @fyipedia/colorfyi
 
-[![npm](https://img.shields.io/npm/v/colorfyi)](https://www.npmjs.com/package/colorfyi)
+[![npm](https://img.shields.io/npm/v/@fyipedia/colorfyi)](https://www.npmjs.com/package/@fyipedia/colorfyi)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](https://www.npmjs.com/package/colorfyi)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](https://www.npmjs.com/package/@fyipedia/colorfyi)
 
 Pure TypeScript color engine for developers. Convert between 7 color spaces (hex, RGB, HSL, HSV, CMYK, CIE Lab, OKLCH), check [WCAG contrast ratios](https://colorfyi.com/tools/contrast-checker/), generate [color harmonies](https://colorfyi.com/tools/palette-generator/) and [Tailwind-style shades](https://colorfyi.com/tools/shade-generator/), simulate [color blindness](https://colorfyi.com/tools/color-blindness-simulator/), and create [smooth gradients](https://colorfyi.com/tools/gradient-generator/) -- all with zero dependencies.
 
@@ -12,7 +12,7 @@ Pure TypeScript color engine for developers. Convert between 7 color spaces (hex
 ## Install
 
 ```bash
-npm install colorfyi
+npm install @fyipedia/colorfyi
 ```
 
 Works in Node.js, Deno, Bun, and browsers (ESM).
@@ -20,7 +20,7 @@ Works in Node.js, Deno, Bun, and browsers (ESM).
 ## Quick Start
 
 ```typescript
-import { getColorInfo, contrastRatio, harmonies, generateShades } from "colorfyi";
+import { getColorInfo, contrastRatio, harmonies, generateShades } from "@fyipedia/colorfyi";
 
 // Convert any hex color to 7 color spaces instantly
 const info = getColorInfo("FF6B35");
@@ -51,7 +51,7 @@ for (const shade of shades) {
 ## Color Blindness Simulation
 
 ```typescript
-import { simulateColorBlindness } from "colorfyi";
+import { simulateColorBlindness } from "@fyipedia/colorfyi";
 
 // Simulate how 8% of men experience your color choices
 const cb = simulateColorBlindness("FF6B35");
@@ -64,7 +64,7 @@ console.log(cb.achromatopsia);  // Total color blindness
 ## Perceptual Color Comparison
 
 ```typescript
-import { compareColors, mixColors, gradientSteps } from "colorfyi";
+import { compareColors, mixColors, gradientSteps } from "@fyipedia/colorfyi";
 
 // CIE76 Delta E perceptual distance
 const cmp = compareColors("FF6B35", "3498DB");
@@ -137,7 +137,7 @@ import type {
   RGB, HSL, HSV, CMYK, Lab, OKLCH,
   ColorInfo, ContrastResult, HarmonySet,
   ShadeStep, ColorBlindResult, CompareResult,
-} from "colorfyi";
+} from "@fyipedia/colorfyi";
 ```
 
 ## Features
