@@ -1,6 +1,6 @@
 # @fyipedia/colorfyi
 
-[![npm](https://img.shields.io/npm/v/@fyipedia/colorfyi)](https://www.npmjs.com/package/@fyipedia/colorfyi)
+[![npm version](https://agentgif.com/badge/npm/@fyipedia/colorfyi/version.svg)](https://www.npmjs.com/package/@fyipedia/colorfyi)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](https://www.npmjs.com/package/@fyipedia/colorfyi)
